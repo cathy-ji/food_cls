@@ -46,7 +46,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 修改config.py文件
 
-# Train（已附上训练好的模型，可跳过此步）
+# Train
 
 `CUDA_VISIBLE_DEVICES=0 python train.py`
 
@@ -81,7 +81,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 修改config.py文件
 
-# Train（已附上训练好的模型，可跳过此步）
+# Train
 
 `CUDA_VISIBLE_DEVICES=0 python train.py`
 
