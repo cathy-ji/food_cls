@@ -1,0 +1,11 @@
+root = '/home/cty/food_cls-main'
+log_path = './log/log.txt'
+resume = None
+gpu = 2
+num_classes = 101
+lr = 0.0001
+batch_size = 64
+weight_decay = 0.0001
+num_epochs = 150
+momentum = 0.95
+cos = False
