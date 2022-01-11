@@ -21,28 +21,24 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 - `./data/food/test/test`
 # Baseline的实现
 # Prepare
-生成索引文件，创建数据集：
+
+修改了prepare.py文件，增加了生成索引文件，创建数据集：
 
 `python prepare.py --src ./data/food/train/train --out ./data/food/train.txt`
 
 `python prepare.py --src ./data/food/val/val  --out ./data/food/val.txt`
 
+`python prepare.py --src ./data/food/test --out ./data/food/test.txt`
+
 修改 `dataset.py` 的 `107-108` 行为你的指定路径
+
 `train_txt = "/data/food/train.txt"`
+
 `eval_txt = "/data/food/val.txt"`
 
 # Hyper-parameter
-`root = './'`
-`log_path = './log/log.txt'`
-`resume = True`
-`gpu = 1`
-`num_classes = 101`
-`lr = 0.01`
-`batch_size = 64`
-`weight_decay = 2e-4`
-`num_epochs = 200`
-`momentum = 0.9`
-`cos = False`
+
+修改config.py文件
 
 # Train
 
@@ -52,6 +48,8 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 功能为用训练好的模型测试 `./data/food/test` 路径下的所有图片，并生成 `submission.txt` 文件
 
-请注意提交格式
+`python inferance_baseline.py'
+
+
 
 
