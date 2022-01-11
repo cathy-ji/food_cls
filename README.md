@@ -58,7 +58,7 @@ https://www.kaggle.com/t/b7ed697207f0401b94a1f5c49c559d68
 
 # 模型优化实现
 
-打开resnet文件夹
+打开resnet50文件夹
 
 # Prepare（已附上生成的索引文件，跳过此步）
 
